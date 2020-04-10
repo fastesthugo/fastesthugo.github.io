@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Notre-Dame de Paris</title>
+    <link>/</link>
+    <description>Recent content on Notre-Dame de Paris</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 10 Apr 2020 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>开始学blog</title>
+      <link>/posts/hugo%E9%9D%99%E6%80%81%E5%8D%9A%E5%AE%A2/</link>
+      <pubDate>Fri, 10 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/hugo%E9%9D%99%E6%80%81%E5%8D%9A%E5%AE%A2/</guid>
+      <description>这是介绍hugo构建方法的文章, 希望大家愉快的书写, 享受书写带来的乐趣.
+hugo静态博客 1. 配置准备 1.1 Git客户端  git客户端 安装下载到的安装包  1.2 GitHub账号  注册账号 创建新的仓库: 命名要以 username.github.io作为仓库名 在本地执行git命令将仓库进行关联.  1.3 TravisCI关联github  直接使用github账号登陆 回到github网页创建token,提供给travisCI使用 选中仓库中我们构建博客的仓库, 打开按钮,点击settings, 配置token变量  1.4 配置好的一键化脚本  使用init.sh脚本初始化仓库文件 使用deploy.sh脚本初始化构建项目  2. 博客书写 2.1 markdown语法了解  推荐网站 learnxinyminute 百度一下 vscode, 有道云笔记  2.2 享受书写的快乐  多看书, 少睡觉.  3 优化 3.1 配置调整  调整了页面中用不到的元素, 修改config.toml 调整了博客预览页面的标题, 还有描述信息, 修改markdown文件中的front-matter 调整详情页的时间, 分割描述信息和详情信息, 修改front-matter.增加more  3.2 域名调整  修改.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>/posts/%E7%AC%AC%E4%B8%80%E4%B8%AA%E5%8D%9A%E5%AE%A2%E6%96%87%E4%BB%B6/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/%E7%AC%AC%E4%B8%80%E4%B8%AA%E5%8D%9A%E5%AE%A2%E6%96%87%E4%BB%B6/</guid>
+      <description>第一个博客网站构建 使用hugo  hugo官网  使用github 使用travisCI </description>
+    </item>
+    
+  </channel>
+</rss>
