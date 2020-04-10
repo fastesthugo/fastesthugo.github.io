@@ -24,7 +24,7 @@ deploy:
     on:
         branch: hugo
     local_dir: public
-    # fqdn: example.site
+    fqdn: daoji.site
     email: lijwxg@hotmail.com
     name: blog
     target_branch: master
